@@ -1,0 +1,7 @@
+(footprint "IR_5mm" (version 20221018) (generator pcbnew) (layer "F.Cu") (attr through_hole)
+(fp_text reference "REF**" (at 0 -3) (layer "F.SilkS") (effects (font (size 1 1) (thickness .15))))
+(fp_text value "IR_5mm" (at 0 3) (layer "F.Fab") (effects (font (size 1 1) (thickness .15))))
+(pad "1" thru_hole rect (at -1.27 0) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Mask"))
+(pad "2" thru_hole circle (at 1.27 0) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Mask"))
+(fp_rect (start -2.7 -2.7) (end 2.7 2.7) (stroke (width .15) (type default)) (fill none) (layer "F.Fab"))
+)

@@ -1,0 +1,14 @@
+test_audio_range_and_end (__main__.DesignTests.test_audio_range_and_end) ... ok
+test_bad_revolution_rejected (__main__.DesignTests.test_bad_revolution_rejected) ... ok
+test_bounce_rejected (__main__.DesignTests.test_bounce_rejected) ... ok
+test_capture_requires_closing_index (__main__.DesignTests.test_capture_requires_closing_index) ... ok
+test_fast_scan_rejected (__main__.DesignTests.test_fast_scan_rejected) ... ok
+test_invalid_pattern_rejected (__main__.DesignTests.test_invalid_pattern_rejected) ... ok
+test_no_index_no_capture (__main__.DesignTests.test_no_index_no_capture) ... ok
+test_tempo_bounds_and_mutes (__main__.DesignTests.test_tempo_bounds_and_mutes) ... ok
+test_timing_no_drift (__main__.DesignTests.test_timing_no_drift) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.015s
+
+OK

@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/yon/orbitscore/hardware/controller/controller.kicad_sch</source>
+    <date>Sun Oct 25 23:29:10 2026</date>
+    <tool>Eeschema 7.0.11+dfsg-1build4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>OrbitScore - controller</title>
+        <company>OrbitScore</company>
+        <rev>A</rev>
+        <date>2026-10-25</date>
+        <source>controller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>OrbitScore:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="OrbitScore" part="C1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49868e06-a9f1-4b87-a04c-cce2ac411a6d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>OrbitScore:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="OrbitScore" part="C2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0902a71f-2df6-4f05-b34f-cf558dce1d02</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10nF</value>
+      <footprint>OrbitScore:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="OrbitScore" part="C3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42910a30-3176-4e23-87c9-0f6ce591e7a5</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10nF</value>
+      <footprint>OrbitScore:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="OrbitScore" part="C4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>368b1096-7c3a-4bc3-9a01-fb6984b8d739</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>470uF 10V</value>
+      <footprint>OrbitScore:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <libsource lib="OrbitScore" part="C5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b2f347c-e4a1-494e-9257-e112a9488953</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>GREEN LED</value>
+      <footprint>OrbitScore:LED_D3.0mm</footprint>
+      <libsource lib="OrbitScore" part="D1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89507d2e-75ee-450c-9b41-3f7b8f2ce087</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>GREEN LED</value>
+      <footprint>OrbitScore:LED_D3.0mm</footprint>
+      <libsource lib="OrbitScore" part="D2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63a42d11-8749-4965-bec2-afe2c3f43c4b</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>OPTICAL READER</value>
+      <footprint>OrbitScore:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="OrbitScore" part="J1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98fadd08-b2db-41c0-a0d5-9747edc24284</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>IR EMITTER BAR</value>
+      <footprint>OrbitScore:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="OrbitScore" part="J2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8cada02c-2685-4d6a-8fd9-606339357acf</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>MAX98357A cable</value>
+      <footprint>OrbitScore:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <libsource lib="OrbitScore" part="J3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6410f865-1996-48df-8db6-8f2b8bf52419</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>TEMPO 10k linear pot</value>
+      <footprint>OrbitScore:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="OrbitScore" part="J4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>937957e4-e5fc-49ee-b2e4-7a5cfead07c4</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>VOLUME 10k linear pot</value>
+      <footprint>OrbitScore:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="OrbitScore" part="J5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06224873-a37e-4f50-8359-8ba73c661eef</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb6e0776-f892-40a8-8054-dd5c01c31717</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38acba5f-1f25-46d5-8aa8-cf9282b84d19</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6798c07b-471d-4097-8b0e-8c147011950a</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b314eac-809e-4410-a34b-1c2a8f91f5db</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>MUTE KICK</value>
+      <footprint>OrbitScore:Button_6mm</footprint>
+      <libsource lib="OrbitScore" part="SW1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30efb8b3-b5e3-445e-b7c3-452131a0cc12</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>MUTE SNARE</value>
+      <footprint>OrbitScore:Button_6mm</footprint>
+      <libsource lib="OrbitScore" part="SW2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0ff7751-be81-4fc4-aef8-613e0834530a</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>MUTE HAT</value>
+      <footprint>OrbitScore:Button_6mm</footprint>
+      <libsource lib="OrbitScore" part="SW3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31d3fec6-5a08-4759-87cc-5c3418ceded6</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>MUTE TOM</value>
+      <footprint>OrbitScore:Button_6mm</footprint>
+      <libsource lib="OrbitScore" part="SW4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a921a9cc-8753-4c66-b963-92efcca21899</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>SCAN</value>
+      <footprint>OrbitScore:Button_6mm</footprint>
+      <libsource lib="OrbitScore" part="SW5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70f9281d-efd7-46ad-8c63-63652a6ce41a</tstamps>
+    </comp>
+    <comp ref="SW6">
+      <value>PLAY</value>
+      <footprint>OrbitScore:Button_6mm</footprint>
+      <libsource lib="OrbitScore" part="SW6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>967096b2-433a-44de-9216-26d6d8a8ef1e</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Raspberry Pi Pico RP2040</value>
+      <footprint>OrbitScore:Pico_Socket</footprint>
+      <libsource lib="OrbitScore" part="U1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac7660cd-3a42-453a-b462-796b43ef1f3d</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>74HC14N</value>
+      <footprint>OrbitScore:DIP-14_W7.62mm</footprint>
+      <libsource lib="OrbitScore" part="U2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>620013f9-a433-429e-870f-1f9c9c594aa2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="OrbitScore" part="C1">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">OrbitScore:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="C2">
+      <fields>
+        <field name="Reference">C2</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint">OrbitScore:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="C3">
+      <fields>
+        <field name="Reference">C3</field>
+        <field name="Value">10nF</field>
+        <field name="Footprint">OrbitScore:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEMPO" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="C4">
+      <fields>
+        <field name="Reference">C4</field>
+        <field name="Value">10nF</field>
+        <field name="Footprint">OrbitScore:C_Disc_D5.0mm_W2.5mm_P5.00mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOLUME" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="C5">
+      <fields>
+        <field name="Reference">C5</field>
+        <field name="Value">470uF 10V</field>
+        <field name="Footprint">OrbitScore:CP_Radial_D8.0mm_P3.50mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+5V_USB" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="D1">
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">GREEN LED</field>
+        <field name="Footprint">OrbitScore:LED_D3.0mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="LED_A0" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="D2">
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">GREEN LED</field>
+        <field name="Footprint">OrbitScore:LED_D3.0mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="LED_A1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">OPTICAL READER</field>
+        <field name="Footprint">OrbitScore:PinHeader_1x08_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="RAW_KICK" type="passive"/>
+        <pin num="4" name="RAW_SNARE" type="passive"/>
+        <pin num="5" name="RAW_HAT" type="passive"/>
+        <pin num="6" name="RAW_TOM" type="passive"/>
+        <pin num="7" name="RAW_CLOCK" type="passive"/>
+        <pin num="8" name="RAW_INDEX" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="J2">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">IR EMITTER BAR</field>
+        <field name="Footprint">OrbitScore:PinHeader_1x02_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="J3">
+      <fields>
+        <field name="Reference">J3</field>
+        <field name="Value">MAX98357A cable</field>
+        <field name="Footprint">OrbitScore:PinHeader_1x07_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I2S_LRCLK" type="passive"/>
+        <pin num="2" name="I2S_DIN" type="passive"/>
+        <pin num="3" name="I2S_BCLK" type="passive"/>
+        <pin num="4" name="NC_GAIN" type="passive"/>
+        <pin num="5" name="AMP_SD" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="+5V_USB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="J4">
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">TEMPO 10k linear pot</field>
+        <field name="Footprint">OrbitScore:PinHeader_1x03_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="TEMPO" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="J5">
+      <fields>
+        <field name="Reference">J5</field>
+        <field name="Value">VOLUME 10k linear pot</field>
+        <field name="Footprint">OrbitScore:PinHeader_1x03_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="VOLUME" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">100k</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AMP_SD" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RUN" type="passive"/>
+        <pin num="2" name="+3V3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCAN_LED" type="passive"/>
+        <pin num="2" name="LED_A0" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PLAY_LED" type="passive"/>
+        <pin num="2" name="LED_A1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="SW1">
+      <fields>
+        <field name="Reference">SW1</field>
+        <field name="Value">MUTE KICK</field>
+        <field name="Footprint">OrbitScore:Button_6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MUTE_KICK" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="SW2">
+      <fields>
+        <field name="Reference">SW2</field>
+        <field name="Value">MUTE SNARE</field>
+        <field name="Footprint">OrbitScore:Button_6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MUTE_SNARE" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="SW3">
+      <fields>
+        <field name="Reference">SW3</field>
+        <field name="Value">MUTE HAT</field>
+        <field name="Footprint">OrbitScore:Button_6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MUTE_HAT" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="SW4">
+      <fields>
+        <field name="Reference">SW4</field>
+        <field name="Value">MUTE TOM</field>
+        <field name="Footprint">OrbitScore:Button_6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MUTE_TOM" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="SW5">
+      <fields>
+        <field name="Reference">SW5</field>
+        <field name="Value">SCAN</field>
+        <field name="Footprint">OrbitScore:Button_6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCAN_BTN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="SW6">
+      <fields>
+        <field name="Reference">SW6</field>
+        <field name="Value">PLAY</field>
+        <field name="Footprint">OrbitScore:Button_6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PLAY_BTN" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="U1">
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">Raspberry Pi Pico RP2040</field>
+        <field name="Footprint">OrbitScore:Pico_Socket</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC_GP0" type="passive"/>
+        <pin num="2" name="NC_GP1" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="KICK" type="passive"/>
+        <pin num="5" name="SNARE" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="HAT" type="passive"/>
+        <pin num="8" name="TOM" type="passive"/>
+        <pin num="9" name="CLOCK" type="passive"/>
+        <pin num="10" name="INDEX" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="MUTE_KICK" type="passive"/>
+        <pin num="13" name="MUTE_SNARE" type="passive"/>
+        <pin num="14" name="MUTE_HAT" type="passive"/>
+        <pin num="15" name="MUTE_TOM" type="passive"/>
+        <pin num="16" name="GND" type="passive"/>
+        <pin num="17" name="SCAN_BTN" type="passive"/>
+        <pin num="18" name="PLAY_BTN" type="passive"/>
+        <pin num="19" name="SCAN_LED" type="passive"/>
+        <pin num="20" name="PLAY_LED" type="passive"/>
+        <pin num="21" name="I2S_BCLK" type="passive"/>
+        <pin num="22" name="I2S_LRCLK" type="passive"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="I2S_DIN" type="passive"/>
+        <pin num="25" name="AMP_SD" type="passive"/>
+        <pin num="26" name="NC_GP20" type="passive"/>
+        <pin num="27" name="NC_GP21" type="passive"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="NC_GP22" type="passive"/>
+        <pin num="30" name="RUN" type="passive"/>
+        <pin num="31" name="TEMPO" type="passive"/>
+        <pin num="32" name="VOLUME" type="passive"/>
+        <pin num="33" name="GND" type="passive"/>
+        <pin num="34" name="NC_GP28" type="passive"/>
+        <pin num="35" name="NC_ADCREF" type="passive"/>
+        <pin num="36" name="+3V3" type="passive"/>
+        <pin num="37" name="NC_3V3EN" type="passive"/>
+        <pin num="38" name="GND" type="passive"/>
+        <pin num="39" name="NC_VSYS" type="passive"/>
+        <pin num="40" name="+5V_USB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="U2">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">74HC14N</field>
+        <field name="Footprint">OrbitScore:DIP-14_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RAW_KICK" type="passive"/>
+        <pin num="2" name="KICK" type="passive"/>
+        <pin num="3" name="RAW_SNARE" type="passive"/>
+        <pin num="4" name="SNARE" type="passive"/>
+        <pin num="5" name="RAW_HAT" type="passive"/>
+        <pin num="6" name="HAT" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="TOM" type="passive"/>
+        <pin num="9" name="RAW_TOM" type="passive"/>
+        <pin num="10" name="CLOCK" type="passive"/>
+        <pin num="11" name="RAW_CLOCK" type="passive"/>
+        <pin num="12" name="INDEX" type="passive"/>
+        <pin num="13" name="RAW_INDEX" type="passive"/>
+        <pin num="14" name="+3V3" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/+3V3">
+      <node ref="C1" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="+3V3" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="+3V3" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="+3V3" pintype="passive"/>
+    </net>
+    <net code="2" name="/+5V_USB">
+      <node ref="C5" pin="1" pinfunction="+5V_USB" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="+5V_USB" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="+5V_USB" pintype="passive"/>
+    </net>
+    <net code="3" name="/AMP_SD">
+      <node ref="J3" pin="5" pinfunction="AMP_SD" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="AMP_SD" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="AMP_SD" pintype="passive"/>
+    </net>
+    <net code="4" name="/CLOCK">
+      <node ref="U1" pin="9" pinfunction="CLOCK" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="CLOCK" pintype="passive"/>
+    </net>
+    <net code="5" name="/GND">
+      <node ref="C1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="6" name="/HAT">
+      <node ref="U1" pin="7" pinfunction="HAT" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="HAT" pintype="passive"/>
+    </net>
+    <net code="7" name="/I2S_BCLK">
+      <node ref="J3" pin="3" pinfunction="I2S_BCLK" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="I2S_BCLK" pintype="passive"/>
+    </net>
+    <net code="8" name="/I2S_DIN">
+      <node ref="J3" pin="2" pinfunction="I2S_DIN" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="I2S_DIN" pintype="passive"/>
+    </net>
+    <net code="9" name="/I2S_LRCLK">
+      <node ref="J3" pin="1" pinfunction="I2S_LRCLK" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="I2S_LRCLK" pintype="passive"/>
+    </net>
+    <net code="10" name="/INDEX">
+      <node ref="U1" pin="10" pinfunction="INDEX" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="INDEX" pintype="passive"/>
+    </net>
+    <net code="11" name="/KICK">
+      <node ref="U1" pin="4" pinfunction="KICK" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="KICK" pintype="passive"/>
+    </net>
+    <net code="12" name="/LED_A0">
+      <node ref="D1" pin="2" pinfunction="LED_A0" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="LED_A0" pintype="passive"/>
+    </net>
+    <net code="13" name="/LED_A1">
+      <node ref="D2" pin="2" pinfunction="LED_A1" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="LED_A1" pintype="passive"/>
+    </net>
+    <net code="14" name="/MUTE_HAT">
+      <node ref="SW3" pin="1" pinfunction="MUTE_HAT" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="MUTE_HAT" pintype="passive"/>
+    </net>
+    <net code="15" name="/MUTE_KICK">
+      <node ref="SW1" pin="1" pinfunction="MUTE_KICK" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="MUTE_KICK" pintype="passive"/>
+    </net>
+    <net code="16" name="/MUTE_SNARE">
+      <node ref="SW2" pin="1" pinfunction="MUTE_SNARE" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="MUTE_SNARE" pintype="passive"/>
+    </net>
+    <net code="17" name="/MUTE_TOM">
+      <node ref="SW4" pin="1" pinfunction="MUTE_TOM" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="MUTE_TOM" pintype="passive"/>
+    </net>
+    <net code="18" name="/PLAY_BTN">
+      <node ref="SW6" pin="1" pinfunction="PLAY_BTN" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="PLAY_BTN" pintype="passive"/>
+    </net>
+    <net code="19" name="/PLAY_LED">
+      <node ref="R4" pin="1" pinfunction="PLAY_LED" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="PLAY_LED" pintype="passive"/>
+    </net>
+    <net code="20" name="/RAW_CLOCK">
+      <node ref="J1" pin="7" pinfunction="RAW_CLOCK" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="RAW_CLOCK" pintype="passive"/>
+    </net>
+    <net code="21" name="/RAW_HAT">
+      <node ref="J1" pin="5" pinfunction="RAW_HAT" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="RAW_HAT" pintype="passive"/>
+    </net>
+    <net code="22" name="/RAW_INDEX">
+      <node ref="J1" pin="8" pinfunction="RAW_INDEX" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="RAW_INDEX" pintype="passive"/>
+    </net>
+    <net code="23" name="/RAW_KICK">
+      <node ref="J1" pin="3" pinfunction="RAW_KICK" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="RAW_KICK" pintype="passive"/>
+    </net>
+    <net code="24" name="/RAW_SNARE">
+      <node ref="J1" pin="4" pinfunction="RAW_SNARE" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="RAW_SNARE" pintype="passive"/>
+    </net>
+    <net code="25" name="/RAW_TOM">
+      <node ref="J1" pin="6" pinfunction="RAW_TOM" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="RAW_TOM" pintype="passive"/>
+    </net>
+    <net code="26" name="/RUN">
+      <node ref="R2" pin="1" pinfunction="RUN" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="RUN" pintype="passive"/>
+    </net>
+    <net code="27" name="/SCAN_BTN">
+      <node ref="SW5" pin="1" pinfunction="SCAN_BTN" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="SCAN_BTN" pintype="passive"/>
+    </net>
+    <net code="28" name="/SCAN_LED">
+      <node ref="R3" pin="1" pinfunction="SCAN_LED" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="SCAN_LED" pintype="passive"/>
+    </net>
+    <net code="29" name="/SNARE">
+      <node ref="U1" pin="5" pinfunction="SNARE" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="SNARE" pintype="passive"/>
+    </net>
+    <net code="30" name="/TEMPO">
+      <node ref="C3" pin="1" pinfunction="TEMPO" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="TEMPO" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="TEMPO" pintype="passive"/>
+    </net>
+    <net code="31" name="/TOM">
+      <node ref="U1" pin="8" pinfunction="TOM" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="TOM" pintype="passive"/>
+    </net>
+    <net code="32" name="/VOLUME">
+      <node ref="C4" pin="1" pinfunction="VOLUME" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="VOLUME" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="VOLUME" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(J3-NC_GAIN-Pad4)">
+      <node ref="J3" pin="4" pinfunction="NC_GAIN" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-NC_3V3EN-Pad37)">
+      <node ref="U1" pin="37" pinfunction="NC_3V3EN" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-NC_ADCREF-Pad35)">
+      <node ref="U1" pin="35" pinfunction="NC_ADCREF" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-NC_GP0-Pad1)">
+      <node ref="U1" pin="1" pinfunction="NC_GP0" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-NC_GP1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="NC_GP1" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-NC_GP20-Pad26)">
+      <node ref="U1" pin="26" pinfunction="NC_GP20" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-NC_GP21-Pad27)">
+      <node ref="U1" pin="27" pinfunction="NC_GP21" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-NC_GP22-Pad29)">
+      <node ref="U1" pin="29" pinfunction="NC_GP22" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-NC_GP28-Pad34)">
+      <node ref="U1" pin="34" pinfunction="NC_GP28" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-NC_VSYS-Pad39)">
+      <node ref="U1" pin="39" pinfunction="NC_VSYS" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

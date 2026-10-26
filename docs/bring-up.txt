@@ -1,0 +1,36 @@
+ORBITSCORE / BENCH BRING-UP & ACCEPTANCE PLAN
+These are future checks, not completed measurements.
+1. Inspect pad polarity, DIP notch, solder bridges, and electrolytic polarity.
+2. With modules removed and USB disconnected, check3V3/GND and5V/GND for shorts.
+3. Power the Pico alone from a current-limited5V source. Confirm3.3V regulator output.
+4. Add HC14 and the reader. Measure dark collector voltage>2.8V and illuminated
+   collector voltage<0.5V on every channel. HC14 output should invert these.
+5. Start with one IR LED/resistor and verify current7-10mA, then add the other five.
+6. Place opaque material between pairs. Verify every signal changes independently
+   without adjacent-channel leakage. Test room lamps and window light with hood.
+7. Flash official MicroPython1.26 RP2 firmware appropriate for the original Pico.
+   Copy core.py,synth.py,main.py into board root. Capture serial error messages.
+8. Disconnect speaker, check audio clocks16kHz LRCLK and the expected data stream.
+   Add amplifier and speaker. Start volume at zero, then raise slowly.
+9. Time one hundred128-frame rendering/writing cycles. Check sustained audio
+   without underruns, late controls, or excessive garbage-collection pauses.
+   Host unit tests do not verify this Pico performance.
+10. Scan the supplied disc clockwise at2,4,8 seconds/revolution. Compare the printed
+    bit masks against pattern.json. Scan again with one intentionally missing
+    clock hole: it must reject the new scan and preserve the old pattern.
+11. Play at60,120,180BPM. Verify loop lengths8,4,2.667sec respectively for TWO bars;
+    one16-step bar should be4,2,1.333sec. Record measured results, not estimates.
+12. Test every mute, cancel, knob endpoint, restart, and power-cycle persistence.
+13. Inspect printed fit, shaft play, disc flatness, and optical window alignment.
+    Print adjustments before calling the design fabrication-ready.
+14. Measure USB current at maximum intended volume and record a10-minute run.
+
+EXPECTED STARTUP BEHAVIOR
+No default demo beat is automatically substituted for a failed scan.
+A missing pattern file starts silent. Scan timeout is30sec. Play cancels a scan.
+The previous stored pattern survives incomplete scans. A pattern is saved only
+while stopped. Four voices are mixed with bounded sample levels.
+
+TEST EVIDENCE TO RECORD
+Actual circuit photos, optical voltage/current readings, capture comparison,
+Pico software version, rendering time, audio recording, and enclosure fit photos.

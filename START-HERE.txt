@@ -1,0 +1,26 @@
+ORBITSCORE — TIER 3 MUSIC DESIGN PACKAGE / REV A
+Open preview/assembly.png to see the design.
+Open hardware/controller/controller.kicad_pro in KiCad (7 or newer).
+Each of controller, reader, and emitters has editable schematic and PCB files,
+a local footprint library, Gerbers and drill files. Board-only STEP exports are
+mechanical reference geometry, not populated assembly models.
+Mechanical source: mechanical/orbitscore.scad; individual print meshes: *.stl.
+Firmware: firmware/main.py, core.py, synth.py, for MicroPython1.26 on original Pico.
+Technical documentation: docs/design-brief.txt, wiring-and-assembly.txt, bring-up.txt.
+
+VERIFIED
+9 desktop firmware tests passed.159 connected schematic/PCB pin assignments match.
+All three PCB reports show zero unconnected pads and zero electrical DRC errors.
+Controller and reader have zero DRC violations. Emitter may retain two footprint
+library consistency warnings for mounting holes; see its original report.
+These are file/software checks, not physical test results.
+
+PROJECT STATUS
+Design-stage engineering package. No physical build or measured hardware tests
+are included. See the verification reports for completed file/software checks.
+
+BEFORE FABRICATION
+Check component footprints against purchased parts, optical polarity and current,
+Pico runtime audio performance, power draw, and printed enclosure fit. The BOM
+contains researched core prices plus clearly marked procurement allowances;
+it is not a final vendor cart or a guaranteed sub-$100 delivered quotation.

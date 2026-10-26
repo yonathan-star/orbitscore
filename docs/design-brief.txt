@@ -1,0 +1,62 @@
+ORBITSCORE / REVISION A / MUSIC DESIGN WEEK
+Engineering package prepared October 25, 2026. Unbuilt design prototype.
+
+PRODUCT
+A physical-pattern percussion sequencer. A perforated disc holds one 4/4 bar,
+16 sixteenth-note positions, and four instrument tracks. Infrared emitters above
+and phototransistors below the disc read the holes. The performer scans the disc
+by hand and then plays the captured pattern at an independent electronic tempo.
+
+DISTINCTIVE DESIGN CHOICES
+No keyboard, premade MIDI instrument kit, motor, screen, recorded drum samples,
+or network account is necessary. Swapping discs changes the composition. Four
+track mutes let a performer arrange the loop; two panel knobs set tempo and gain.
+The four percussion voices are generated mathematically by the firmware.
+This is an independently generated project concept; no claim is made that optical
+sequencing itself is new. Community projects were viewed for scope, not copied.
+
+TIER TARGET
+Tier 3: the dashboard displayed $100 parts funding and 20 actual design hours.
+This package targets that funding category. Tier selection does not establish
+eligibility, reviewer acceptance, or that 20 hours have been completed.
+
+SYSTEM
+1. Six 940nm IR LEDs on a custom emitter bar, each with its own 220-ohm resistor.
+2. Six BPW85C phototransistors on a custom reader bar, each with a 10k pull-up.
+3. A 3.3V 74HC14 inverts and conditions all six reader signals on the controller.
+4. A Pico captures four data tracks, one 16-hole clock, and one index marker.
+5. Firmware commits a scan only after exactly 16 positions and the next index.
+6. A sample-clock sequencer drives four synthesized percussion voices at 16kHz.
+7. A MAX98357A module receives I2S and drives a 4-ohm/3W loudspeaker.
+
+SPECIFICATION
+Disc: 164mm diameter, 0.8mm thick, 6.4mm center hole.
+Track radii: kick26, snare36, hat46, tom56, clock66, index76 millimetres.
+Data/index holes: diameter7mm. Timing holes: diameter3mm.
+Positions: 16, separated by22.5 degrees; index coincides with step0.
+Scan direction: clockwise as seen from above. Reverse rotation is not detected;
+rotate continuously without backing up. About2-8 seconds per revolution.
+Tempo:60-180 BPM, four sixteenth-note steps per quarter note.
+Pattern:16 integers, each a four-bit mask. Bit0kick, bit1snare, bit2hat, bit3tom.
+Audio:16-bit mono PCM at16000 samples/sec, 128-frame blocks.
+Main PCB:100x100mm; reader/emitter PCBs:90x18mm, two copper layers,1.6mm FR4.
+Scan station enclosure:190x190mm. Separate controller pod:110x110mm.
+Power:5V USB into Pico. No batteries or charging circuitry.
+
+ELECTRICAL CALCULATIONS
+IR branch: using1.6V nominal LED drop, (3.3-1.6)/220=7.7mA.
+Six branches draw approximately46mA. Worst-case at1.1V forward drop is60mA.
+One resistor at10mA dissipates22mW; standard0.25W parts give ample margin.
+One detector pull-up needs at most3.3/10000=0.33mA when illuminated.
+All six pull-ups add at most1.98mA. Validate optical current in the real assembly.
+74HC14 and Pico GPIO use3.3V only. The audio amplifier uses5V from VBUS.
+The speaker is connected across the amplifier's two output terminals; neither
+terminal connects to ground. Use a regulated current-limited5V USB source rated
+at least1A. Start at low volume. Validate total input current before PC-USB use.
+
+KNOWN VALIDATION LIMITS
+Desktop tests check scanner/sequence logic, sample range, file syntax, pin/net
+consistency, and PCB design rules. They do not establish optical sensitivity,
+ambient-light immunity, microcontroller timing, acoustic quality, regulator
+headroom, or printed fit. No physical build or endurance testing occurred.
+The enclosure needs a measured first fit before final fabrication quantities.

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/yon/orbitscore/hardware/emitters/emitters.kicad_sch</source>
+    <date>Sun Oct 25 23:29:12 2026</date>
+    <tool>Eeschema 7.0.11+dfsg-1build4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>OrbitScore - emitters</title>
+        <company>OrbitScore</company>
+        <rev>A</rev>
+        <date>2026-10-25</date>
+        <source>emitters.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>940nm IR 5mm</value>
+      <footprint>OrbitScore:IR_5mm</footprint>
+      <libsource lib="OrbitScore" part="D1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="emitters.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9716c8dc-1795-4420-b68a-cb8789a6e440</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>940nm IR 5mm</value>
+      <footprint>OrbitScore:IR_5mm</footprint>
+      <libsource lib="OrbitScore" part="D2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="emitters.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06089385-1b3f-47d4-aa74-fac37123db80</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>940nm IR 5mm</value>
+      <footprint>OrbitScore:IR_5mm</footprint>
+      <libsource lib="OrbitScore" part="D3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="emitters.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80a75105-bbe2-4e18-b105-90f598341dc6</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>940nm IR 5mm</value>
+      <footprint>OrbitScore:IR_5mm</footprint>
+      <libsource lib="OrbitScore" part="D4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="emitters.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>211ad359-8bdb-41bc-a1e2-aaf6b4cade89</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>940nm IR 5mm</value>
+      <footprint>OrbitScore:IR_5mm</footprint>
+      <libsource lib="OrbitScore" part="D5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="emitters.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28769eb0-f0fd-414b-a70a-702d492e24bd</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>940nm IR 5mm</value>
+      <footprint>OrbitScore:IR_5mm</footprint>
+      <libsource lib="OrbitScore" part="D6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="emitters.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86660a0f-1b59-427b-8a5c-3d18a53e77be</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>3V3 ONLY</value>
+      <footprint>OrbitScore:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="OrbitScore" part="J1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="emitters.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ae23b71-1637-4412-95de-7aff6a046803</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>220R</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="emitters.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>197c1f8f-aeea-4eec-a868-5c4778239043</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>220R</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="emitters.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc6c14d5-926d-4d99-b525-a2be48f7d52f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>220R</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="emitters.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9329318e-be32-46e6-a87c-09b773ce3959</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>220R</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="emitters.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05d035c5-f771-4571-8191-4e59e8e14a9e</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>220R</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="emitters.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e874ea7-69ea-4480-b03a-4ae01d1ecae9</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>220R</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="emitters.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86e192f6-6cee-41f4-b9a2-0bd74c5d8987</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="OrbitScore" part="D1">
+      <fields>
+        <field name="Reference">D1</field>
+        <field name="Value">940nm IR 5mm</field>
+        <field name="Footprint">OrbitScore:IR_5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="IR_A0" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="D2">
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">940nm IR 5mm</field>
+        <field name="Footprint">OrbitScore:IR_5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="IR_A1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="D3">
+      <fields>
+        <field name="Reference">D3</field>
+        <field name="Value">940nm IR 5mm</field>
+        <field name="Footprint">OrbitScore:IR_5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="IR_A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="D4">
+      <fields>
+        <field name="Reference">D4</field>
+        <field name="Value">940nm IR 5mm</field>
+        <field name="Footprint">OrbitScore:IR_5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="IR_A3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="D5">
+      <fields>
+        <field name="Reference">D5</field>
+        <field name="Value">940nm IR 5mm</field>
+        <field name="Footprint">OrbitScore:IR_5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="IR_A4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="D6">
+      <fields>
+        <field name="Reference">D6</field>
+        <field name="Value">940nm IR 5mm</field>
+        <field name="Footprint">OrbitScore:IR_5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="IR_A5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">3V3 ONLY</field>
+        <field name="Footprint">OrbitScore:PinHeader_1x02_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">220R</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="IR_A0" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">220R</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="IR_A1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">220R</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="IR_A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">220R</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="IR_A3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">220R</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="IR_A4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">220R</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="IR_A5" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/+3V3">
+      <node ref="J1" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="+3V3" pintype="passive"/>
+    </net>
+    <net code="2" name="/GND">
+      <node ref="D1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="3" name="/IR_A0">
+      <node ref="D1" pin="2" pinfunction="IR_A0" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="IR_A0" pintype="passive"/>
+    </net>
+    <net code="4" name="/IR_A1">
+      <node ref="D2" pin="2" pinfunction="IR_A1" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="IR_A1" pintype="passive"/>
+    </net>
+    <net code="5" name="/IR_A2">
+      <node ref="D3" pin="2" pinfunction="IR_A2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="IR_A2" pintype="passive"/>
+    </net>
+    <net code="6" name="/IR_A3">
+      <node ref="D4" pin="2" pinfunction="IR_A3" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="IR_A3" pintype="passive"/>
+    </net>
+    <net code="7" name="/IR_A4">
+      <node ref="D5" pin="2" pinfunction="IR_A4" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="IR_A4" pintype="passive"/>
+    </net>
+    <net code="8" name="/IR_A5">
+      <node ref="D6" pin="2" pinfunction="IR_A5" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="IR_A5" pintype="passive"/>
+    </net>
+  </nets>
+</export>

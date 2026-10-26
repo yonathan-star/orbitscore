@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/yon/orbitscore/hardware/reader/reader.kicad_sch</source>
+    <date>Sun Oct 25 23:29:11 2026</date>
+    <tool>Eeschema 7.0.11+dfsg-1build4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>OrbitScore - reader</title>
+        <company>OrbitScore</company>
+        <rev>A</rev>
+        <date>2026-10-25</date>
+        <source>reader.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>CONTROLLER</value>
+      <footprint>OrbitScore:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <libsource lib="OrbitScore" part="J1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reader.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc982186-7ad4-4f65-bc0f-e14ae794c6aa</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BPW85C</value>
+      <footprint>OrbitScore:BPW85C</footprint>
+      <libsource lib="OrbitScore" part="Q1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reader.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab1e0717-361a-43e4-ad89-9785e24fce6a</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BPW85C</value>
+      <footprint>OrbitScore:BPW85C</footprint>
+      <libsource lib="OrbitScore" part="Q2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reader.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a88bbf6b-fdaa-49dc-96c1-7f6c1bbbdcf5</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BPW85C</value>
+      <footprint>OrbitScore:BPW85C</footprint>
+      <libsource lib="OrbitScore" part="Q3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reader.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7a0ae216-8942-40b6-b1fc-a18ae6ac8bb2</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>BPW85C</value>
+      <footprint>OrbitScore:BPW85C</footprint>
+      <libsource lib="OrbitScore" part="Q4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reader.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c08fbf48-f257-49f9-91d2-1ee0f4ae4148</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>BPW85C</value>
+      <footprint>OrbitScore:BPW85C</footprint>
+      <libsource lib="OrbitScore" part="Q5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reader.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f5c94b3-1225-41bc-b1a8-62c3e4d8e8a5</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>BPW85C</value>
+      <footprint>OrbitScore:BPW85C</footprint>
+      <libsource lib="OrbitScore" part="Q6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reader.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af66c39d-4aa7-4de1-aae3-232c7a7f94fd</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reader.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5e51ae0-4f48-4f1a-9bf1-012488f3561a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reader.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5271b500-ab59-46f6-ab8d-3e51a4781093</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reader.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cf64fa2-35c8-4211-a96d-947af6de53d3</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reader.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8ad8851-ed1e-49de-b440-a9e8e20a96ad</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reader.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>179e740f-a7cd-4c93-bb45-e01b22ee49f2</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="OrbitScore" part="R6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="reader.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b4066c0-8a00-4180-a39e-de06028e150b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="OrbitScore" part="J1">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">CONTROLLER</field>
+        <field name="Footprint">OrbitScore:PinHeader_2x04_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="RAW_KICK" type="passive"/>
+        <pin num="4" name="RAW_SNARE" type="passive"/>
+        <pin num="5" name="RAW_HAT" type="passive"/>
+        <pin num="6" name="RAW_TOM" type="passive"/>
+        <pin num="7" name="RAW_CLOCK" type="passive"/>
+        <pin num="8" name="RAW_INDEX" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="Q1">
+      <fields>
+        <field name="Reference">Q1</field>
+        <field name="Value">BPW85C</field>
+        <field name="Footprint">OrbitScore:BPW85C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="RAW_KICK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="Q2">
+      <fields>
+        <field name="Reference">Q2</field>
+        <field name="Value">BPW85C</field>
+        <field name="Footprint">OrbitScore:BPW85C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="RAW_SNARE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="Q3">
+      <fields>
+        <field name="Reference">Q3</field>
+        <field name="Value">BPW85C</field>
+        <field name="Footprint">OrbitScore:BPW85C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="RAW_HAT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="Q4">
+      <fields>
+        <field name="Reference">Q4</field>
+        <field name="Value">BPW85C</field>
+        <field name="Footprint">OrbitScore:BPW85C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="RAW_TOM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="Q5">
+      <fields>
+        <field name="Reference">Q5</field>
+        <field name="Value">BPW85C</field>
+        <field name="Footprint">OrbitScore:BPW85C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="RAW_CLOCK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="Q6">
+      <fields>
+        <field name="Reference">Q6</field>
+        <field name="Value">BPW85C</field>
+        <field name="Footprint">OrbitScore:BPW85C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="RAW_INDEX" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R1">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="RAW_KICK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R2">
+      <fields>
+        <field name="Reference">R2</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="RAW_SNARE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R3">
+      <fields>
+        <field name="Reference">R3</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="RAW_HAT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R4">
+      <fields>
+        <field name="Reference">R4</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="RAW_TOM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R5">
+      <fields>
+        <field name="Reference">R5</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="RAW_CLOCK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OrbitScore" part="R6">
+      <fields>
+        <field name="Reference">R6</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3V3" type="passive"/>
+        <pin num="2" name="RAW_INDEX" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="/+3V3">
+      <node ref="J1" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="+3V3" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="+3V3" pintype="passive"/>
+    </net>
+    <net code="2" name="/GND">
+      <node ref="J1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="3" name="/RAW_CLOCK">
+      <node ref="J1" pin="7" pinfunction="RAW_CLOCK" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="RAW_CLOCK" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="RAW_CLOCK" pintype="passive"/>
+    </net>
+    <net code="4" name="/RAW_HAT">
+      <node ref="J1" pin="5" pinfunction="RAW_HAT" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="RAW_HAT" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="RAW_HAT" pintype="passive"/>
+    </net>
+    <net code="5" name="/RAW_INDEX">
+      <node ref="J1" pin="8" pinfunction="RAW_INDEX" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="RAW_INDEX" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="RAW_INDEX" pintype="passive"/>
+    </net>
+    <net code="6" name="/RAW_KICK">
+      <node ref="J1" pin="3" pinfunction="RAW_KICK" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="RAW_KICK" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="RAW_KICK" pintype="passive"/>
+    </net>
+    <net code="7" name="/RAW_SNARE">
+      <node ref="J1" pin="4" pinfunction="RAW_SNARE" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="RAW_SNARE" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="RAW_SNARE" pintype="passive"/>
+    </net>
+    <net code="8" name="/RAW_TOM">
+      <node ref="J1" pin="6" pinfunction="RAW_TOM" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="RAW_TOM" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="RAW_TOM" pintype="passive"/>
+    </net>
+  </nets>
+</export>

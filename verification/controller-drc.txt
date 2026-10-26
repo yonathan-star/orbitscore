@@ -1,0 +1,10 @@
+** Drc report for /home/yon/orbitscore/hardware/controller/controller.kicad_pcb **
+** Created on 2026-10-25 23:28:33 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

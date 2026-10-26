@@ -1,0 +1,739 @@
+{
+  "controller": {
+    "width": 100,
+    "height": 100,
+    "parts": [
+      {
+        "ref": "U1",
+        "value": "Raspberry Pi Pico RP2040",
+        "pins": {
+          "1": "NC_GP0",
+          "2": "NC_GP1",
+          "3": "GND",
+          "4": "KICK",
+          "5": "SNARE",
+          "6": "GND",
+          "7": "HAT",
+          "8": "TOM",
+          "9": "CLOCK",
+          "10": "INDEX",
+          "11": "GND",
+          "12": "MUTE_KICK",
+          "13": "MUTE_SNARE",
+          "14": "MUTE_HAT",
+          "15": "MUTE_TOM",
+          "16": "GND",
+          "17": "SCAN_BTN",
+          "18": "PLAY_BTN",
+          "19": "SCAN_LED",
+          "20": "PLAY_LED",
+          "21": "I2S_BCLK",
+          "22": "I2S_LRCLK",
+          "23": "GND",
+          "24": "I2S_DIN",
+          "25": "AMP_SD",
+          "26": "NC_GP20",
+          "27": "NC_GP21",
+          "28": "GND",
+          "29": "NC_GP22",
+          "30": "RUN",
+          "31": "TEMPO",
+          "32": "VOLUME",
+          "33": "GND",
+          "34": "NC_GP28",
+          "35": "NC_ADCREF",
+          "36": "+3V3",
+          "37": "NC_3V3EN",
+          "38": "GND",
+          "39": "NC_VSYS",
+          "40": "+5V_USB"
+        },
+        "foot": "OrbitScore:Pico_Socket",
+        "x": 13,
+        "y": 9,
+        "rot": 0,
+        "uuid": "ac7660cd-3a42-453a-b462-796b43ef1f3d"
+      },
+      {
+        "ref": "U2",
+        "value": "74HC14N",
+        "pins": {
+          "7": "GND",
+          "14": "+3V3",
+          "1": "RAW_KICK",
+          "2": "KICK",
+          "3": "RAW_SNARE",
+          "4": "SNARE",
+          "5": "RAW_HAT",
+          "6": "HAT",
+          "9": "RAW_TOM",
+          "8": "TOM",
+          "11": "RAW_CLOCK",
+          "10": "CLOCK",
+          "13": "RAW_INDEX",
+          "12": "INDEX"
+        },
+        "foot": "OrbitScore:DIP-14_W7.62mm",
+        "x": 48,
+        "y": 20,
+        "rot": 0,
+        "uuid": "620013f9-a433-429e-870f-1f9c9c594aa2"
+      },
+      {
+        "ref": "J1",
+        "value": "OPTICAL READER",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND",
+          "3": "RAW_KICK",
+          "4": "RAW_SNARE",
+          "5": "RAW_HAT",
+          "6": "RAW_TOM",
+          "7": "RAW_CLOCK",
+          "8": "RAW_INDEX"
+        },
+        "foot": "OrbitScore:PinHeader_1x08_P2.54mm_Vertical",
+        "x": 72,
+        "y": 14,
+        "rot": 0,
+        "uuid": "98fadd08-b2db-41c0-a0d5-9747edc24284"
+      },
+      {
+        "ref": "J2",
+        "value": "IR EMITTER BAR",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "foot": "OrbitScore:PinHeader_1x02_P2.54mm_Vertical",
+        "x": 84,
+        "y": 15,
+        "rot": 0,
+        "uuid": "8cada02c-2685-4d6a-8fd9-606339357acf"
+      },
+      {
+        "ref": "J3",
+        "value": "MAX98357A cable",
+        "pins": {
+          "1": "I2S_LRCLK",
+          "2": "I2S_DIN",
+          "3": "I2S_BCLK",
+          "4": "NC_GAIN",
+          "5": "AMP_SD",
+          "6": "GND",
+          "7": "+5V_USB"
+        },
+        "foot": "OrbitScore:PinHeader_1x07_P2.54mm_Vertical",
+        "x": 87,
+        "y": 38,
+        "rot": 0,
+        "uuid": "6410f865-1996-48df-8db6-8f2b8bf52419"
+      },
+      {
+        "ref": "SW1",
+        "value": "MUTE KICK",
+        "pins": {
+          "1": "MUTE_KICK",
+          "2": "GND"
+        },
+        "foot": "OrbitScore:Button_6mm",
+        "x": 12,
+        "y": 72,
+        "rot": 0,
+        "uuid": "30efb8b3-b5e3-445e-b7c3-452131a0cc12"
+      },
+      {
+        "ref": "SW2",
+        "value": "MUTE SNARE",
+        "pins": {
+          "1": "MUTE_SNARE",
+          "2": "GND"
+        },
+        "foot": "OrbitScore:Button_6mm",
+        "x": 34,
+        "y": 72,
+        "rot": 0,
+        "uuid": "b0ff7751-be81-4fc4-aef8-613e0834530a"
+      },
+      {
+        "ref": "SW3",
+        "value": "MUTE HAT",
+        "pins": {
+          "1": "MUTE_HAT",
+          "2": "GND"
+        },
+        "foot": "OrbitScore:Button_6mm",
+        "x": 56,
+        "y": 72,
+        "rot": 0,
+        "uuid": "31d3fec6-5a08-4759-87cc-5c3418ceded6"
+      },
+      {
+        "ref": "SW4",
+        "value": "MUTE TOM",
+        "pins": {
+          "1": "MUTE_TOM",
+          "2": "GND"
+        },
+        "foot": "OrbitScore:Button_6mm",
+        "x": 12,
+        "y": 88,
+        "rot": 0,
+        "uuid": "a921a9cc-8753-4c66-b963-92efcca21899"
+      },
+      {
+        "ref": "SW5",
+        "value": "SCAN",
+        "pins": {
+          "1": "SCAN_BTN",
+          "2": "GND"
+        },
+        "foot": "OrbitScore:Button_6mm",
+        "x": 34,
+        "y": 88,
+        "rot": 0,
+        "uuid": "70f9281d-efd7-46ad-8c63-63652a6ce41a"
+      },
+      {
+        "ref": "SW6",
+        "value": "PLAY",
+        "pins": {
+          "1": "PLAY_BTN",
+          "2": "GND"
+        },
+        "foot": "OrbitScore:Button_6mm",
+        "x": 56,
+        "y": 88,
+        "rot": 0,
+        "uuid": "967096b2-433a-44de-9216-26d6d8a8ef1e"
+      },
+      {
+        "ref": "J4",
+        "value": "TEMPO 10k linear pot",
+        "pins": {
+          "1": "+3V3",
+          "2": "TEMPO",
+          "3": "GND"
+        },
+        "foot": "OrbitScore:PinHeader_1x03_P2.54mm_Vertical",
+        "x": 45,
+        "y": 49,
+        "rot": 0,
+        "uuid": "937957e4-e5fc-49ee-b2e4-7a5cfead07c4"
+      },
+      {
+        "ref": "J5",
+        "value": "VOLUME 10k linear pot",
+        "pins": {
+          "1": "+3V3",
+          "2": "VOLUME",
+          "3": "GND"
+        },
+        "foot": "OrbitScore:PinHeader_1x03_P2.54mm_Vertical",
+        "x": 65,
+        "y": 49,
+        "rot": 0,
+        "uuid": "06224873-a37e-4f50-8359-8ba73c661eef"
+      },
+      {
+        "ref": "C1",
+        "value": "100nF",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "foot": "OrbitScore:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+        "x": 60,
+        "y": 13,
+        "rot": 0,
+        "uuid": "49868e06-a9f1-4b87-a04c-cce2ac411a6d"
+      },
+      {
+        "ref": "C2",
+        "value": "100nF",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "foot": "OrbitScore:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+        "x": 35,
+        "y": 62,
+        "rot": 0,
+        "uuid": "0902a71f-2df6-4f05-b34f-cf558dce1d02"
+      },
+      {
+        "ref": "C3",
+        "value": "10nF",
+        "pins": {
+          "1": "TEMPO",
+          "2": "GND"
+        },
+        "foot": "OrbitScore:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+        "x": 44,
+        "y": 62,
+        "rot": 0,
+        "uuid": "42910a30-3176-4e23-87c9-0f6ce591e7a5"
+      },
+      {
+        "ref": "C4",
+        "value": "10nF",
+        "pins": {
+          "1": "VOLUME",
+          "2": "GND"
+        },
+        "foot": "OrbitScore:C_Disc_D5.0mm_W2.5mm_P5.00mm",
+        "x": 65,
+        "y": 62,
+        "rot": 0,
+        "uuid": "368b1096-7c3a-4bc3-9a01-fb6984b8d739"
+      },
+      {
+        "ref": "C5",
+        "value": "470uF 10V",
+        "pins": {
+          "1": "+5V_USB",
+          "2": "GND"
+        },
+        "foot": "OrbitScore:CP_Radial_D8.0mm_P3.50mm",
+        "x": 78,
+        "y": 59,
+        "rot": 0,
+        "uuid": "2b2f347c-e4a1-494e-9257-e112a9488953"
+      },
+      {
+        "ref": "R1",
+        "value": "100k",
+        "pins": {
+          "1": "AMP_SD",
+          "2": "GND"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 71,
+        "y": 45,
+        "rot": 0,
+        "uuid": "bb6e0776-f892-40a8-8054-dd5c01c31717"
+      },
+      {
+        "ref": "R2",
+        "value": "10k",
+        "pins": {
+          "1": "RUN",
+          "2": "+3V3"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 33,
+        "y": 7,
+        "rot": 0,
+        "uuid": "38acba5f-1f25-46d5-8aa8-cf9282b84d19"
+      },
+      {
+        "ref": "R3",
+        "value": "1k",
+        "pins": {
+          "1": "SCAN_LED",
+          "2": "LED_A0"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 77,
+        "y": 76,
+        "rot": 90,
+        "uuid": "6798c07b-471d-4097-8b0e-8c147011950a"
+      },
+      {
+        "ref": "D1",
+        "value": "GREEN LED",
+        "pins": {
+          "1": "GND",
+          "2": "LED_A0"
+        },
+        "foot": "OrbitScore:LED_D3.0mm",
+        "x": 77,
+        "y": 91,
+        "rot": 0,
+        "uuid": "89507d2e-75ee-450c-9b41-3f7b8f2ce087"
+      },
+      {
+        "ref": "R4",
+        "value": "1k",
+        "pins": {
+          "1": "PLAY_LED",
+          "2": "LED_A1"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 89,
+        "y": 76,
+        "rot": 90,
+        "uuid": "2b314eac-809e-4410-a34b-1c2a8f91f5db"
+      },
+      {
+        "ref": "D2",
+        "value": "GREEN LED",
+        "pins": {
+          "1": "GND",
+          "2": "LED_A1"
+        },
+        "foot": "OrbitScore:LED_D3.0mm",
+        "x": 89,
+        "y": 91,
+        "rot": 0,
+        "uuid": "63a42d11-8749-4965-bec2-afe2c3f43c4b"
+      }
+    ]
+  },
+  "reader": {
+    "width": 90,
+    "height": 18,
+    "parts": [
+      {
+        "ref": "J1",
+        "value": "CONTROLLER",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND",
+          "3": "RAW_KICK",
+          "4": "RAW_SNARE",
+          "5": "RAW_HAT",
+          "6": "RAW_TOM",
+          "7": "RAW_CLOCK",
+          "8": "RAW_INDEX"
+        },
+        "foot": "OrbitScore:PinHeader_2x04_P2.54mm_Vertical",
+        "x": 7,
+        "y": 3,
+        "rot": 0,
+        "uuid": "cc982186-7ad4-4f65-bc0f-e14ae794c6aa"
+      },
+      {
+        "ref": "Q1",
+        "value": "BPW85C",
+        "pins": {
+          "1": "GND",
+          "2": "RAW_KICK"
+        },
+        "foot": "OrbitScore:BPW85C",
+        "x": 20,
+        "y": 6,
+        "rot": 0,
+        "uuid": "ab1e0717-361a-43e4-ad89-9785e24fce6a"
+      },
+      {
+        "ref": "R1",
+        "value": "10k",
+        "pins": {
+          "1": "+3V3",
+          "2": "RAW_KICK"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 25,
+        "y": 15,
+        "rot": 90,
+        "uuid": "d5e51ae0-4f48-4f1a-9bf1-012488f3561a"
+      },
+      {
+        "ref": "Q2",
+        "value": "BPW85C",
+        "pins": {
+          "1": "GND",
+          "2": "RAW_SNARE"
+        },
+        "foot": "OrbitScore:BPW85C",
+        "x": 30,
+        "y": 6,
+        "rot": 0,
+        "uuid": "a88bbf6b-fdaa-49dc-96c1-7f6c1bbbdcf5"
+      },
+      {
+        "ref": "R2",
+        "value": "10k",
+        "pins": {
+          "1": "+3V3",
+          "2": "RAW_SNARE"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 35,
+        "y": 15,
+        "rot": 90,
+        "uuid": "5271b500-ab59-46f6-ab8d-3e51a4781093"
+      },
+      {
+        "ref": "Q3",
+        "value": "BPW85C",
+        "pins": {
+          "1": "GND",
+          "2": "RAW_HAT"
+        },
+        "foot": "OrbitScore:BPW85C",
+        "x": 40,
+        "y": 6,
+        "rot": 0,
+        "uuid": "7a0ae216-8942-40b6-b1fc-a18ae6ac8bb2"
+      },
+      {
+        "ref": "R3",
+        "value": "10k",
+        "pins": {
+          "1": "+3V3",
+          "2": "RAW_HAT"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 45,
+        "y": 15,
+        "rot": 90,
+        "uuid": "2cf64fa2-35c8-4211-a96d-947af6de53d3"
+      },
+      {
+        "ref": "Q4",
+        "value": "BPW85C",
+        "pins": {
+          "1": "GND",
+          "2": "RAW_TOM"
+        },
+        "foot": "OrbitScore:BPW85C",
+        "x": 50,
+        "y": 6,
+        "rot": 0,
+        "uuid": "c08fbf48-f257-49f9-91d2-1ee0f4ae4148"
+      },
+      {
+        "ref": "R4",
+        "value": "10k",
+        "pins": {
+          "1": "+3V3",
+          "2": "RAW_TOM"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 55,
+        "y": 15,
+        "rot": 90,
+        "uuid": "b8ad8851-ed1e-49de-b440-a9e8e20a96ad"
+      },
+      {
+        "ref": "Q5",
+        "value": "BPW85C",
+        "pins": {
+          "1": "GND",
+          "2": "RAW_CLOCK"
+        },
+        "foot": "OrbitScore:BPW85C",
+        "x": 60,
+        "y": 6,
+        "rot": 0,
+        "uuid": "5f5c94b3-1225-41bc-b1a8-62c3e4d8e8a5"
+      },
+      {
+        "ref": "R5",
+        "value": "10k",
+        "pins": {
+          "1": "+3V3",
+          "2": "RAW_CLOCK"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 65,
+        "y": 15,
+        "rot": 90,
+        "uuid": "179e740f-a7cd-4c93-bb45-e01b22ee49f2"
+      },
+      {
+        "ref": "Q6",
+        "value": "BPW85C",
+        "pins": {
+          "1": "GND",
+          "2": "RAW_INDEX"
+        },
+        "foot": "OrbitScore:BPW85C",
+        "x": 70,
+        "y": 6,
+        "rot": 0,
+        "uuid": "af66c39d-4aa7-4de1-aae3-232c7a7f94fd"
+      },
+      {
+        "ref": "R6",
+        "value": "10k",
+        "pins": {
+          "1": "+3V3",
+          "2": "RAW_INDEX"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 75,
+        "y": 15,
+        "rot": 90,
+        "uuid": "3b4066c0-8a00-4180-a39e-de06028e150b"
+      }
+    ]
+  },
+  "emitters": {
+    "width": 90,
+    "height": 18,
+    "parts": [
+      {
+        "ref": "J1",
+        "value": "3V3 ONLY",
+        "pins": {
+          "1": "+3V3",
+          "2": "GND"
+        },
+        "foot": "OrbitScore:PinHeader_1x02_P2.54mm_Vertical",
+        "x": 8,
+        "y": 5,
+        "rot": 0,
+        "uuid": "6ae23b71-1637-4412-95de-7aff6a046803"
+      },
+      {
+        "ref": "D1",
+        "value": "940nm IR 5mm",
+        "pins": {
+          "1": "GND",
+          "2": "IR_A0"
+        },
+        "foot": "OrbitScore:IR_5mm",
+        "x": 20,
+        "y": 6,
+        "rot": 0,
+        "uuid": "9716c8dc-1795-4420-b68a-cb8789a6e440"
+      },
+      {
+        "ref": "R1",
+        "value": "220R",
+        "pins": {
+          "1": "+3V3",
+          "2": "IR_A0"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 25,
+        "y": 15,
+        "rot": 90,
+        "uuid": "197c1f8f-aeea-4eec-a868-5c4778239043"
+      },
+      {
+        "ref": "D2",
+        "value": "940nm IR 5mm",
+        "pins": {
+          "1": "GND",
+          "2": "IR_A1"
+        },
+        "foot": "OrbitScore:IR_5mm",
+        "x": 30,
+        "y": 6,
+        "rot": 0,
+        "uuid": "06089385-1b3f-47d4-aa74-fac37123db80"
+      },
+      {
+        "ref": "R2",
+        "value": "220R",
+        "pins": {
+          "1": "+3V3",
+          "2": "IR_A1"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 35,
+        "y": 15,
+        "rot": 90,
+        "uuid": "dc6c14d5-926d-4d99-b525-a2be48f7d52f"
+      },
+      {
+        "ref": "D3",
+        "value": "940nm IR 5mm",
+        "pins": {
+          "1": "GND",
+          "2": "IR_A2"
+        },
+        "foot": "OrbitScore:IR_5mm",
+        "x": 40,
+        "y": 6,
+        "rot": 0,
+        "uuid": "80a75105-bbe2-4e18-b105-90f598341dc6"
+      },
+      {
+        "ref": "R3",
+        "value": "220R",
+        "pins": {
+          "1": "+3V3",
+          "2": "IR_A2"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 45,
+        "y": 15,
+        "rot": 90,
+        "uuid": "9329318e-be32-46e6-a87c-09b773ce3959"
+      },
+      {
+        "ref": "D4",
+        "value": "940nm IR 5mm",
+        "pins": {
+          "1": "GND",
+          "2": "IR_A3"
+        },
+        "foot": "OrbitScore:IR_5mm",
+        "x": 50,
+        "y": 6,
+        "rot": 0,
+        "uuid": "211ad359-8bdb-41bc-a1e2-aaf6b4cade89"
+      },
+      {
+        "ref": "R4",
+        "value": "220R",
+        "pins": {
+          "1": "+3V3",
+          "2": "IR_A3"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 55,
+        "y": 15,
+        "rot": 90,
+        "uuid": "05d035c5-f771-4571-8191-4e59e8e14a9e"
+      },
+      {
+        "ref": "D5",
+        "value": "940nm IR 5mm",
+        "pins": {
+          "1": "GND",
+          "2": "IR_A4"
+        },
+        "foot": "OrbitScore:IR_5mm",
+        "x": 60,
+        "y": 6,
+        "rot": 0,
+        "uuid": "28769eb0-f0fd-414b-a70a-702d492e24bd"
+      },
+      {
+        "ref": "R5",
+        "value": "220R",
+        "pins": {
+          "1": "+3V3",
+          "2": "IR_A4"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 65,
+        "y": 15,
+        "rot": 90,
+        "uuid": "4e874ea7-69ea-4480-b03a-4ae01d1ecae9"
+      },
+      {
+        "ref": "D6",
+        "value": "940nm IR 5mm",
+        "pins": {
+          "1": "GND",
+          "2": "IR_A5"
+        },
+        "foot": "OrbitScore:IR_5mm",
+        "x": 70,
+        "y": 6,
+        "rot": 0,
+        "uuid": "86660a0f-1b59-427b-8a5c-3d18a53e77be"
+      },
+      {
+        "ref": "R6",
+        "value": "220R",
+        "pins": {
+          "1": "+3V3",
+          "2": "IR_A5"
+        },
+        "foot": "OrbitScore:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",
+        "x": 75,
+        "y": 15,
+        "rot": 90,
+        "uuid": "86e192f6-6cee-41f4-b9a2-0bd74c5d8987"
+      }
+    ]
+  }
+}

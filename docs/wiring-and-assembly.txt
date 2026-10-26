@@ -1,0 +1,71 @@
+ORBITSCORE / WIRING & ASSEMBLY / REV A
+Disconnect USB before installing parts or changing any harness.
+
+PICO PIN MAP (GP identifiers are not physical header pin numbers)
+GP2kick, GP3snare, GP4hat, GP5tom, GP6clock, GP7index: outputs of HC14.
+GP8..GP11: mute buttons, active-low to ground, internal pulls enabled.
+GP12scan button; GP13play/cancel button: active-low to ground.
+GP14scan LED, GP15play LED, each through1k to anode; cathode grounded.
+GP16I2S BCLK; GP17I2S LRCLK; GP18I2S data; GP19amplifier shutdown.
+GP26tempo and GP27volume: wipers of10k linear panel potentiometers.
+Pot outside terminals:3.3V and GND. Reverse those two to reverse knob direction.
+Pico physical pin36 supplies3.3V; physical pin40 is USB VBUS5V.
+The Pico socket uses2x20 rows,17.78mm between rows and2.54mm pitch.
+Orient the Pico USB connector toward the top of the controller board.
+
+J1 OPTICAL HARNESS: connect numbered pins one-to-one, not by cable color.
+Main board connector is1x8, reader connector is2x4. Make an explicit harness:
+1=3V3,2=GND,3=raw kick,4=raw snare,5=raw hat,6=raw tom,7=raw clock,8=raw index.
+On the reader2x4 footprint, pad1 is the square pad; pins1/2 share a row,
+then3/4,5/6,7/8. Read the numbered pads in KiCad before soldering.
+A straight IDC ribbon is not appropriate for this mixed connector geometry.
+Keep cable short (target<150mm), ground beside the sensor bundle if possible.
+
+J2 EMITTER HARNESS
+1=3V3,2=GND on both ends. Never connect5V to this header.
+Emitter LEDs face downward; phototransistors face upward.
+For custom IR footprints: pad1=cathode, pad2=anode.
+For custom BPW85C footprints: pad1=emitter, pad2=collector.
+Verify the vendor lead identification against its drawing before trimming.
+The rectangular custom bodies are drawn on the fabrication layer, not the silk,
+to keep the solder-mask openings clean. Assembly SVG exports show body outlines.
+
+J3 AUDIO AMPLIFIER HARNESS
+Header1=LRCLK,2=DIN,3=BCLK,4=GAIN(open),5=SD,6=GND,7=5V.
+Connect by signal name to the Adafruit MAX98357A module. This connector is for
+an external cable, not a claim that every compatible amplifier shares pin order.
+Use the module's supplied speaker screw terminal for the loudspeaker.
+Do not connect a headphone jack or grounded oscilloscope clip to a speaker output.
+Mount the amplifier insulated from the enclosure fasteners. Leave GAIN open.
+
+CONTROLLER COMPONENTS
+U2 is DIP14 HC14, not HCT14 (HCT has a different supply range).
+Pin14=3V3; pin7=GND. Gate input/output pairs:1/2,3/4,5/6,9/8,11/10,13/12.
+Install C1 close to U2. C1/C2 are100nF decouplers. C3/C4 are10nF ADC filters.
+C5 is470uF,10V minimum, positive to5V and negative stripe toGND.
+R1=100k shutdown pull-down. R2=10k RUN pull-up. R3/R4=1k LED resistors.
+Six6mm tactile switches use6.5x4.5mm four-leg pad geometry. Confirm supplied
+switch drawing before ordering. Two same-numbered pads are the same contact.
+
+MECHANICAL ASSEMBLY
+Print parts flat at0.2mm layer height. Use PETG or PLA with opaque dark material
+for the optical bridge. Print a small hole/shaft tolerance coupon first.
+Base and deck:190mm square, M3 corner centers(7,7),(183,7),(7,183),(183,183).
+Speaker mounting reference:60mm square, centers(35,110),(95,110),(35,170),(95,170).
+Use compliant washers and verify the speaker frame against its actual drawing.
+Reader board origin in base coordinates:(96,84), bottom surface z27.4mm.
+Its lens centers are at x116,126,136,146,156,166 and y90.
+Disc center:(90,90); deck bottom z31, top33.4; hub flange top37.4.
+Disc runs fromz37.4 to38.2. Check no sensor tip reaches that plane.
+Emitter board is above the disc, components downward; flip it about its x-axis.
+Its optics align with the reader's six lens centers. Target board bottomz48.6.
+Bridge attaches outside the disc path and is removable for changing discs.
+Use approximately0.8mm insulating washers to set emitter-board height beneath
+the bridge. Confirm actual LED package height; preserve at least1mm disc clearance.
+Reader/emitter bar mounting hole centers are local(3,9),(86,9).
+Controller PCB mounts inside the pod with its origin offset(5,5), bottomz7.
+Pot holes in lid are at(55,18),(80,18); wire them to J4 and J5.
+Six printed plungers reach the short tactile stems through the lid openings.
+Fit and trim plungers to switch height so none is pressed at rest.
+Pico USB access is an oversized cable opening; use a short flexible cable and
+check connector reach before fastening the lid. No fit is physically verified.

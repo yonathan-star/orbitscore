@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "OrbitScore") (type "KiCad") (uri "${KIPRJMOD}/OrbitScore.pretty") (options "") (descr "Local project footprints")))
