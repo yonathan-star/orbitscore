@@ -4,6 +4,8 @@ A tabletop percussion sequencer that reads interchangeable perforated rhythm dis
 
 ![OrbitScore enclosure design](preview/assembly.png)
 
+![Controller board layout](preview/controller.png)
+
 ## Design
 
 Six optical channels read four data tracks, a clock track, and an index marker. Separate controller, reader, and emitter boards connect the optical scanner to the Pico. A MAX98357A amplifier drives a speaker. Two knobs set tempo and gain; four track mutes control the arrangement.
