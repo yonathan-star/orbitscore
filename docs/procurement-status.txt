@@ -1,0 +1,4 @@
+Deadline submission procurement status
+Core supplier carts captured for Adafruit, DFRobot, SunFounder, and DigiKey.
+Some BOM rows remain estimates or require final carts: additional capacitors, PCB designs beyond the controller, filament, and fasteners.
+Shipping, tax, tariffs, and exact footprint fit are not fully quoted. Funding requested under the Tier3 maximum; reviewer verification remains required.
